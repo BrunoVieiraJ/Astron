@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>BVieira</title>
+</head>
+
+<body>
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center justify-content-between">
+
+            <h1 class="logo">Astron</a></h1>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#sobre">Sobre</a></li>
+                    <li><a class="nav-link scrollto" href="#servicos">Serviços</a></li>
+                    <li><a class="nav-link scrollto" href="#portfolio">Projetos</a></li>
+                    <li><a class="nav-link scrollto" data-toggle="modal" data-target="#contatoModal" href="#contact">Contato</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+
+        </div>
+    </header><!-- End Header -->
+    <main>
+        <!-- banner -->
+        <div class="banner">
+            <h1>Proporcionando soluções tecnológicas<br>de outro mundo</h1>
+            <p>Explore, descubra e desfrute.</p>
+        </div>
+
+        <!-- div sobre -->
+        <div id="sobre" class="container mt-4">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="sobre-mim">
+                        <h2>Sobre</h2>
+                        <p>Olá, meu nome é Bruno Vieira Julio e sou apaixonado por programação.</p>
+                        <p>Estou sempre em busca de novos desafios e oportunidades de aprendizado. Tenho
+                            habilidades em Java, python, MySQL e desenvolvimento WEB (HTML, CSS e bootstrap). Além
+                            disso, sou
+                            uma pessoa divertida e acredito na importância da colaboração e trabalho em equipe.</p>
+                        <p>Estou disponível para oportunidades de trabalho e projetos. Se você quiser saber
+                            mais sobre mim ou tiver alguma pergunta, fique à vontade para entrar em contato.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img_mim" src="imgs/eu.jpg" alt="Imagem de perfil">
+                </div>
+            </div>
+        </div>
+
+        <!-- section cards -->
+        <section id="titulo">
+            <h1 class="text-center fonte-titulo cor-especial pt-5">Principais Conhecimentos</h1>
+        </section>
+
+        <main class="cards">
+            <section class="card contact">
+                <div class="icon">
+                    <img src="imgs/java.png" alt="Contact us.">
+                </div>
+                <h3>Back-end</h3>
+                <span>Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede que pode ser usada
+                    como uma plataforma em si.</span>
+            </section>
+            <section class="card shop">
+                <div class="icon">
+                    <img src="imgs/boot.png" alt="Shop here.">
+                </div>
+                <h3>Front-end</h3>
+                <span>É um framework web para desenvolvimento de componentes de interface e
+                    front-end para sites e aplicações web.</span>
+            </section>
+            <section class="card about">
+                <div class="icon">
+                    <img src="imgs/mysql.png" alt="About us.">
+                </div>
+                <h3>Banco de dados</h3>
+                <span>O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como
+                    interface.</span>
+            </section>
+        </main>
+
+
+        <!-- section servicos -->
+        <section id="titulo">
+            <h1 id="servicos" class="text-center fonte-titulo cor-especial pt-5">Serviços</h1>
+            <h3 class="h3_titulo">Serviços oferecidos para que seus resultados alcançem a exosfera</p>
+        </section>
+
+        <!-- carrosel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100 imagem_carrosel" src="imgs/desenvolvimento.jpg" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="h1_carrosel">DESENVOLVIMENTO</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 imagem_carrosel" src="imgs/auditoria.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="h1_carrosel">AUDITORIA</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 imagem_carrosel" src="imgs/nuvem.jpg" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="h1_carrosel">AMBIENTE EM NUVEM</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 imagem_carrosel" src="imgs/gestao.jpg" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="h1_carrosel">GESTÃO DE PROJETOS DE TI</h1>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Prox</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Ant</span>
+            </a>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <!-- div descrição serviços -->
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="servicos">
+                        <h2>Para sua empresa</h2>
+                        <p>O serviço de TI para empresas é projetado para atender às necessidades tecnológicas de
+                            organizações de todos os tamanhos e setores. <br><br>Estou pronto para fornecer soluções
+                            personalizadas que impulsionem a eficiência, a produtividade e a segurança dos seus
+                            negócios.<br><br>Ao escolher o meu serviço para sua empresa, você pode ter a tranquilidade
+                            de saber
+                            que terá um profissional especializado disponível para ajudá-lo a maximizar seus resultados.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img_servicos" src="imgs/empresaa.jpg" alt="Imagem de perfil">
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img_servicos" src="imgs/comercios.jpg" alt="Imagem de perfil">
+                </div>
+                <div class="col-lg-6">
+                    <div class="servicos">
+                        <h2>Para seu comércio</h2>
+                        <p>O serviço de TI para estabelecimentos comerciais é projetado para atender às necessidades
+                            tecnológicas específicas do setor de varejo, restaurantes e outros estabelecimentos
+                            comerciais. <br><br>Compreendo a importância da tecnologia no ambiente de negócios atual e
+                            trabalho
+                            para ajudá-lo a obter o máximo de sua tecnologia, permitindo que você se concentre no
+                            crescimento do seu negócio e na satisfação dos seus clientes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="servicos">
+                        <h2>Para ambientes acadêmicos</h2>
+                        <p>O serviço de TI para ambientes acadêmicos foi construído para atender às necessidades
+                            tecnológicas específicas de instituições de ensino, como escolas e universidades.<br><br>
+                            Tenho pleno conhecimento sobre a importância da tecnologia na promoção de um ambiente
+                            educacional
+                            eficiente e colaborativo e busco fornecer soluções que potencializem a aprendizagem e o
+                            desenvolvimento acadêmico.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img_servicos " src="imgs/facul.jpeg" alt="Imagem de perfil">
+                </div>
+            </div>
+        </div>
+
+        <section id="titulo">
+            <h1 class="text-center fonte-titulo cor-especial pt-5">Portfólio</h1>
+        </section>
+
+        <section id="portfolio" class="container">
+      <div class="row justify-content-center">
+        <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-sm-6 col-md-4 col-lg-2ss">
+          <img class="card-img-top card-posicao-imagem" src="imgs/cashback.jpg"
+            alt="imagem da tela do menu principal do projeto">
+          <div class="card-body">
+            <h5 class="card-title">Sistema de cashback</h5>
+            <p class="card-text">Sistema de cashback utilizando o Delphi em comunicação com o banco de dados PostgreSQL.</p>
+            <a href="https://github.com/BrunoVieiraJ/Return" class="btn botao-cor-especial">Acesse!</a>
+          </div>
+        </article>
+
+        <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-sm-6 col-md-4 col-lg-2ss">
+          <img class="card-img-top card-posicao-imagem" src="imgs/site.jpg"
+            alt="imagem do site, mostrando o menu inicial">
+          <div class="card-body">
+            <h5 class="card-title">InnoMind</h5>
+            <p class="card-text">Site criado utilizando apenas HTML E CSS, para a matéria de Sistemas WEB I.</p>
+            <a href="https://github.com/BrunoVieiraJ/TheInnoMind" class="btn botao-cor-especial">Acesse!</a>
+          </div>
+        </article>\
+
+        <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-sm-6 col-md-4 col-lg-2ss">
+          <img class="card-img-top card-posicao-imagem" src="imgs/pada.jpg"
+            alt="Imagem contendo o código escrito sobre o projeto da padaReges">
+          <div class="card-body">
+            <h5 class="card-title">PadaReges</h5>
+            <p class="card-text">Sistema simples de uma padaria, utilizando da linguagem Java.</p>
+            <a href="https://github.com/BrunoVieiraJ/PadaReges" class="btn botao-cor-especial">Acesse!</a>
+          </div>
+        </article>
+</section>
+
+    </main>
+
+    <div class="modal fade" id="contatoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Entre em Contato</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="exampleFormControlInput">Nome completo</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Insira seu nome">
+                </div>   
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Endereço de e-mail</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+                </div>                        
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Deixe seu comentário</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Insira aqui seu comentário"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+              <button type="button" class="btn botao-cor-especial">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
